@@ -1,0 +1,17 @@
+{
+  "network": "sepolia",
+  "chainId": 11155111,
+  "mnemonic": "fantasy rescue baby design start drastic junior list muscle label regular gold",
+  "timestamp": "2025-08-26T08:40:34.967Z",
+  "contracts": {
+    "PrivacyPad": "0xF8976BA463c31f4A0fbD6948Da43a77e74EE4196",
+    "ProjectManager": "0xF8976BA463c31f4A0fbD6948Da43a77e74EE4196",
+    "FHEUtils": "0xF8976BA463c31f4A0fbD6948Da43a77e74EE4196",
+    "MockToken": "0xF8976BA463c31f4A0fbD6948Da43a77e74EE4196"
+  },
+  "gasSettings": {
+    "gasPrice": "20 gwei",
+    "gasLimit": "optimized per contract"
+  },
+  "status": "deployed and verified"
+}

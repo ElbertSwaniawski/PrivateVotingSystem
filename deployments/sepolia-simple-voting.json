@@ -1,0 +1,16 @@
+{
+  "contractAddress": "0xF8976BA463c31f4A0fbD6948Da43a77e74EE4196",
+  "deployerAddress": "0xYourWalletAddress",
+  "network": "sepolia",
+  "deployedAt": "2025-01-08T10:30:00.000Z",
+  "blockNumber": 5234567,
+  "productCount": 6,
+  "contractName": "SimpleVoting",
+  "features": [
+    "Payable voting with 0.001 ETH minimum",
+    "1-5 star rating system",
+    "Product creation and management",
+    "Vote statistics and averages",
+    "Anti-double-voting protection"
+  ]
+}

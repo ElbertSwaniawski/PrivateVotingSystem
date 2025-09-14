@@ -1,0 +1,34 @@
+{
+  "name": "product-feedback-voting-app",
+  "version": "1.0.0",
+  "description": "Anonymous product feedback voting system with FHE encryption",
+  "scripts": {
+    "build": "echo 'Static files ready'",
+    "start": "echo 'Static deployment'",
+    "dev": "echo 'Static deployment'"
+  },
+  "keywords": [
+    "blockchain",
+    "ethereum",
+    "fhe",
+    "zama",
+    "privacy",
+    "feedback",
+    "voting",
+    "rating",
+    "anonymous",
+    "vercel"
+  ],
+  "author": "Product Feedback Team",
+  "license": "MIT",
+  "engines": {
+    "node": ">=14.0.0"
+  },
+  "dependencies": {
+    "@fhevm/solidity": "^0.8.0"
+  },
+  "type": "module",
+  "devDependencies": {
+    "@nomicfoundation/hardhat-toolbox": "^6.1.0"
+  }
+}

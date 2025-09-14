@@ -1,0 +1,25 @@
+{
+  "version": 2,
+  "name": "product-feedback-voting",
+  "buildCommand": "echo 'No build needed for static files'",
+  "outputDirectory": "frontend/public",
+  "installCommand": "echo 'No install needed for static files'",
+  "framework": null,
+  "public": false,
+  "builds": [
+    {
+      "src": "frontend/public/**",
+      "use": "@vercel/static"
+    }
+  ],
+  "routes": [
+    {
+      "src": "/(.*\\.(js|css|png|jpg|jpeg|gif|svg|ico|woff|woff2|ttf|eot))",
+      "dest": "/frontend/public/$1"
+    },
+    {
+      "src": "/(.*)",
+      "dest": "/frontend/public/index.html"
+    }
+  ]
+}
